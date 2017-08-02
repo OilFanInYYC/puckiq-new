@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <% include ../partials/head %>
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+    <div class="wrapper">
+
+    <% include ../partials/header %>
+    <% include ../partials/leftside %>
+
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+        <h1>
+            Welcome to PuckIQ
+            <small>Whatever we want to go here</small>
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+        </ol>
+        </section>
+
+        <!-- Main content -->
+        <section class="content">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="box">
+                        <div class="box-header with-border">
+                            <h3>Introduction</h3>
+                        </div>
+                        <div class="box-body">
+                            <p>Head coaches spend most of their game time managing the match ups for their team. Some coaches work harder at getting specific match ups than others, but every head coach manages match ups.</p>
+                            <p>The originators of PuckIQ would spend hours combing through the game sheets to see who played against the best the most and how they did.</p>
+                            <p>One thing the game sheets made very clear was that players didn’t play against “all competition” for the same amount of time as was the orthodoxy of most fancystats writers at the time.</p>
+                            <p>Some players (usually a team’s best) played vs the other team’s best more than their team mates and that difficulty of time on ice tempered their results. Similarly, the 3rd and 4th lines tend to play each other the most which served to “inflate” their results relative to their perceived ability.</p>
+                            <p>The goal of PuckIQ is to answer these two key questions:
+                                <ul>
+                                    <li>For any given player, to what extent did they play against the 'best' competition?</li>
+                                    <li>And how did they do?</li>
+                                </ul>
+                            </p>
+                            <p>These are questions that are answered ineffectively and (usually) incorrectly by traditional QoC measures, which use either TOI-weighted measures or corsi-weighted measures that are ironically heavily confounded by either QoC or team depth (or both) effects.</p>
+                            <p>These are also questions that are side-stepped entirely by the newer WAR/GAR type metrics, which do account for them to some extent, but also do so in a black-box way that isn't generally accessible to most hockey fans.</p>
+                            <p>PuckIQ's approach is that we've created what we feel is a sensible and general accepted definition of "best" (as well as the least good and middle ground) players in the NHL, and then measured how your player(s) of interest did against those groups of players.</p>
+                            <p>We are not trying to create a global correction factor for QoC, but rather we want to segment the results data of each player based on QoC bands so it can be analyzed on the individual level.</p>
+                            <p>It is not a 'mathematically pure' approach, but it is one that models the “generally accepted quality of players” well. The first goal of any model should be to model the system it is trying to model. (for details, see ...)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 pull-right">
+                    <div class="box box-gray">
+                        <div class="box-body box-profile">
+                            <img class="profile-user-img img-responsive img-circle" src="/images/fonzie.jpg" alt="G Money">
+                            <h3 class="profile-username text-center">G Money</h3>
+                            <p class="text-muted text-center">The Brains</p>
+                            <a href="#" class="btn btn-primary btn-block">Follow</a>
+                        </div>
+                    </div>
+                    <div class="box box-gray">
+                        <div class="box-body box-profile">
+                            <img class="profile-user-img img-responsive img-circle" src="/images/richie.jpg" alt="Darcy McLeod">
+                            <h3 class="profile-username text-center">Darcy McLeod</h3>
+                            <p class="text-muted text-center">The Muscle</p>
+                            <a href="#" class="btn btn-primary btn-block">Follow</a>
+                        </div>
+                    </div>
+                    <div class="box box-gray">
+                        <div class="box-body box-profile">
+                            <img class="profile-user-img img-responsive img-circle" src="/images/potsie.jpg" alt="Derek Blasutti">
+                            <h3 class="profile-username text-center">Derek Blasutti</h3>
+                            <p class="text-muted text-center">The Man</p>
+                            <a href="#" class="btn btn-primary btn-block">Follow</a>
+                        </div>
+                    </div>
+                    <div class="box box-gray">
+                        <div class="box-body box-profile">
+                            <img class="profile-user-img img-responsive img-circle" src="/images/ralph.jpg" alt="Zsolt Munoz">
+                            <h3 class="profile-username text-center">Zsolt Munoz</h3>
+                            <p class="text-muted text-center">Some Guy</p>
+                            <a href="#" class="btn btn-primary btn-block">Follow</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /.content -->
+    </div>
+
+    <% include ../partials/footer %>
+    <% include ../partials/rightside %>
+
+    <div class="control-sidebar-bg"></div>
+    </div>
+
+<% include ../partials/scripts %>
+</body>
+</html>

@@ -1,0 +1,9 @@
+.logo .logo-mini img {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.logo .logo-lg img {
+    max-width: 88px;
+    max-height: 40px;
+}
